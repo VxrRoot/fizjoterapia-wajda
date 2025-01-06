@@ -1,8 +1,7 @@
-import ContainerLayout from "@/layouts/ContainerLayout";
-import Image from "next/image";
-import React from "react";
-import { Facebook, InstagramIcon, Instagram } from "lucide-react";
 import CTAButton from "@/components/CTAButton";
+import ContainerLayout from "@/layouts/ContainerLayout";
+import { Facebook, Instagram } from "lucide-react";
+import Image from "next/image";
 
 const ContactSection = () => {
   return (

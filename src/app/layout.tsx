@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import type { Metadata } from "next";
-import { Poppins, Syne } from "next/font/google";
+import { Syne } from "next/font/google";
 import "./globals.css";
 
 const syne = Syne({ subsets: ["latin"] });
