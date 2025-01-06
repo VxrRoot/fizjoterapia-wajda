@@ -1,6 +1,6 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import Image from "next/image";
-import img1 from "../../public/elektrostymulacja1.avif";
+
 import React from "react";
 
 const TreatmentProcessSection = () => {
@@ -11,7 +11,7 @@ const TreatmentProcessSection = () => {
           <div className="flex-1">
             <Image
               alt="Patrycja Wajda"
-              src={img1}
+              src="/elektrostymulacja1.avif"
               className=" w-full object-contain sticky top-36 rounded-xl"
             />
           </div>

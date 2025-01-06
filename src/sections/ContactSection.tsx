@@ -1,6 +1,5 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import Image from "next/image";
-import avatar from "../../public/avatar.avif";
 import React from "react";
 import { Facebook, InstagramIcon, Instagram } from "lucide-react";
 import CTAButton from "@/components/CTAButton";
@@ -31,7 +30,11 @@ const ContactSection = () => {
           </div>
           <div className="basis-1/3 max-lg:mt-10 min-h-full flex flex-col ">
             <div className="flex items-center gap-4">
-              <Image alt="" src={avatar} className="w-20 h-20 rounded-full" />
+              <Image
+                alt=""
+                src="/avatar.avif"
+                className="w-20 h-20 rounded-full"
+              />
               <div className="poppins">
                 <p>mgr. Patrycja Wajda</p>
                 <a href="tel:+48785395887" className="underline">

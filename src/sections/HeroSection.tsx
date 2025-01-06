@@ -1,6 +1,5 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import Image from "next/image";
-import heroImg from "../../public/hero-img.avif";
 import React from "react";
 import CTAButton from "@/components/CTAButton";
 
@@ -32,7 +31,7 @@ const HeroSection = () => {
           </div>
           <div className="flex-1 flex justify-center max-lg:mt-20">
             <div className="max-w-[480px] bg-[#c4f6921a] p-4 rounded-[80px]">
-              <Image alt="Patrycja Wajda" src={heroImg} />
+              <Image alt="Patrycja Wajda" src="hero-img.avif" />
             </div>
           </div>
         </div>

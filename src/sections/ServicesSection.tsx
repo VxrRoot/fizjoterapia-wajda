@@ -1,6 +1,5 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import Image from "next/image";
-import serviceImg from "../../public/service-1.avif";
 import React from "react";
 import { Phone } from "lucide-react";
 import CTAButton from "@/components/CTAButton";
@@ -23,7 +22,7 @@ const ServicesSection = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-10">
             <article className="">
-              <Image alt="" className="rounded-xl" src={serviceImg} />
+              <Image alt="" className="rounded-xl" src="service-1.avif" />
               <h3 className="mt-6">
                 IASTM - Innowacyjna terapia tkanek miękkich
               </h3>
@@ -32,14 +31,14 @@ const ServicesSection = () => {
               </p>
             </article>
             <article className="">
-              <Image alt="" className="rounded-xl" src={serviceImg} />
+              <Image alt="" className="rounded-xl" src="service-1.avif" />
               <h3 className="mt-6">Terapia Kobido - relaks i odmłodzenie</h3>
               <p className="poppins text-base mt-2">
                 Metoda IASTM skutecznie redukuje ból i przyspiesza regenerację.
               </p>
             </article>
             <article className="">
-              <Image alt="" className="rounded-xl" src={serviceImg} />
+              <Image alt="" className="rounded-xl" src="service-1.avif" />
               <h3 className="mt-6">Drenaż pneumatyczny - ulga i regeneracja</h3>
               <p className="poppins text-base mt-2">
                 Metoda IASTM skutecznie redukuje ból i przyspiesza regenerację.
