@@ -22,7 +22,14 @@ const ServicesSection = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-10">
             <article className="">
-              <Image alt="" className="rounded-xl" src="service-1.avif" />
+              <Image
+                alt=""
+                className="rounded-xl"
+                src="/service-1.avif"
+                layout="responsive"
+                width={100}
+                height={100}
+              />
               <h3 className="mt-6">
                 IASTM - Innowacyjna terapia tkanek miękkich
               </h3>
@@ -31,14 +38,28 @@ const ServicesSection = () => {
               </p>
             </article>
             <article className="">
-              <Image alt="" className="rounded-xl" src="service-1.avif" />
+              <Image
+                alt=""
+                className="rounded-xl"
+                src="/service-1.avif"
+                layout="responsive"
+                width={100}
+                height={100}
+              />
               <h3 className="mt-6">Terapia Kobido - relaks i odmłodzenie</h3>
               <p className="poppins text-base mt-2">
                 Metoda IASTM skutecznie redukuje ból i przyspiesza regenerację.
               </p>
             </article>
             <article className="">
-              <Image alt="" className="rounded-xl" src="service-1.avif" />
+              <Image
+                alt=""
+                className="rounded-xl"
+                src="/service-1.avif"
+                layout="responsive"
+                width={100}
+                height={100}
+              />
               <h3 className="mt-6">Drenaż pneumatyczny - ulga i regeneracja</h3>
               <p className="poppins text-base mt-2">
                 Metoda IASTM skutecznie redukuje ból i przyspiesza regenerację.

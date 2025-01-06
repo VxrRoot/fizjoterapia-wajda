@@ -13,6 +13,9 @@ const TreatmentProcessSection = () => {
               alt="Patrycja Wajda"
               src="/elektrostymulacja1.avif"
               className=" w-full object-contain sticky top-36 rounded-xl"
+              layout="responsive"
+              width={100}
+              height={100}
             />
           </div>
           <div className="flex-1">

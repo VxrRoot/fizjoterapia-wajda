@@ -31,7 +31,13 @@ const HeroSection = () => {
           </div>
           <div className="flex-1 flex justify-center max-lg:mt-20">
             <div className="max-w-[480px] bg-[#c4f6921a] p-4 rounded-[80px]">
-              <Image alt="Patrycja Wajda" src="hero-img.avif" />
+              <Image
+                alt="Patrycja Wajda"
+                src="/hero-img.avif"
+                layout="responsive"
+                width={100}
+                height={100}
+              />
             </div>
           </div>
         </div>

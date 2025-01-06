@@ -33,7 +33,10 @@ const ContactSection = () => {
               <Image
                 alt=""
                 src="/avatar.avif"
-                className="w-20 h-20 rounded-full"
+                className="!w-20 !h-20 rounded-full"
+                layout="responsive"
+                width={80}
+                height={80}
               />
               <div className="poppins">
                 <p>mgr. Patrycja Wajda</p>
