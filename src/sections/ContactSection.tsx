@@ -38,7 +38,7 @@ const ContactSection = () => {
                 height={80}
               />
               <div className="poppins">
-                <p>mgr. Patrycja Wajda</p>
+                <p>mgr Patrycja Wajda</p>
                 <a href="tel:+48785395887" className="underline">
                   +48 785 395 887
                 </a>

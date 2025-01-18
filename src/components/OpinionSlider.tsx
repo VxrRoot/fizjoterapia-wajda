@@ -20,26 +20,6 @@ const opinions = [
 ];
 
 const OpinionSlider = () => {
-  const [paddingLeft, setPaddingLeft] = useState(0);
-
-  useEffect(() => {
-    function onResize() {
-      if (window.innerWidth > 1520) {
-        if (window.innerWidth > 1920) {
-          setPaddingLeft(200);
-        } else {
-          setPaddingLeft((window.innerWidth - 1520) / 2);
-        }
-      } else {
-        setPaddingLeft(0);
-      }
-    }
-
-    window.addEventListener("resize", onResize);
-    onResize();
-    return () => window.removeEventListener("resize", onResize);
-  }, []);
-
   const settings = {
     infinite: true,
     speed: 1000,
@@ -59,10 +39,7 @@ const OpinionSlider = () => {
   };
 
   return (
-    <div
-      className={`max-w-[1920px] mx-auto relative`}
-      style={{ paddingLeft: `${paddingLeft}px` }}
-    >
+    <div className={`max-w-[1920px] mx-auto relative`}>
       <div className="slider-container">
         <div style={{}}>
           <Slider

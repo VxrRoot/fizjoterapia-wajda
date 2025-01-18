@@ -23,7 +23,7 @@ const Nav = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex flex-col gap-12 pt-20  w-full items-center">
+        <div className="flex flex-col gap-12 pt-20 text-white  w-full items-center">
           <div className="xl:px-6 xl:mx-2 xl:px-10 xl:mx-4">
             <Link
               className="  hover:-translate-y-1 transition-all block"
@@ -35,7 +35,7 @@ const Nav = () => {
           <div className=" xl:px-10 xl:mx-4">
             <Link
               className="  hover:-translate-y-1 transition-all block"
-              href="#"
+              href="/uslugi"
             >
               Usługi
             </Link>
@@ -56,13 +56,16 @@ const Nav = () => {
         <div className=" xl:px-10 xl:mx-4">
           <Link
             className=" whitespace-nowrap hover:-translate-y-1 transition-all block"
-            href="#"
+            href="/uslugi"
           >
             Usługi
           </Link>
         </div>
         <div className="xl:pl-10">
-          <Link className="btn-primary" href="#">
+          <Link
+            className=" whitespace-nowrap hover:-translate-y-1 transition-all block"
+            href="#"
+          >
             Kontakt
           </Link>
         </div>
