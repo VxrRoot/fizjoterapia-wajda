@@ -28,6 +28,7 @@ const Nav = () => {
             <Link
               className="  hover:-translate-y-1 transition-all block"
               href="/#o-terapii"
+              onClick={() => setIsOpen(false)}
             >
               O terapii
             </Link>
@@ -36,6 +37,7 @@ const Nav = () => {
             <Link
               className="  hover:-translate-y-1 transition-all block"
               href="/#uslugi"
+              onClick={() => setIsOpen(false)}
             >
               Usługi
             </Link>
@@ -44,6 +46,7 @@ const Nav = () => {
             <Link
               className="  hover:-translate-y-1 transition-all block"
               href="/#kontakt"
+              onClick={() => setIsOpen(false)}
             >
               Kontakt
             </Link>
