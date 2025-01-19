@@ -12,5 +12,5 @@ export default function ClientLayout({ children }: { children: ReactNode }) {
     });
   }, []);
 
-  return <div className="overflow-x-hidden">{children}</div>;
+  return <div className="max-lg:overflow-x-hidden">{children}</div>;
 }

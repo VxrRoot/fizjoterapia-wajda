@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl" suppressHydrationWarning>
-      <body className={`${syne.className} antialiased overflow-hidden`}>
+      <body className={`${syne.className} antialiased overflow-x-hidden`}>
         <Header />
         <ClientLayout>{children}</ClientLayout>
         <Footer />
