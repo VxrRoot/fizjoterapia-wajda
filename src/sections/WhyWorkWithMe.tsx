@@ -1,13 +1,11 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
-import { Check } from "lucide-react";
 import Image from "next/image";
-import img1 from "../../public/pierwsza-wizyta.webp";
 import img2 from "../../public/certyfikaty.webp";
+import img5 from "../../public/drenaz.webp";
 import img3 from "../../public/gabine.webp";
 import img4 from "../../public/oferta.webp";
-import img5 from "../../public/drenaz.webp";
 import img6 from "../../public/pacjent.webp";
-import React from "react";
+import img1 from "../../public/pierwsza-wizyta.webp";
 
 const items = [
   {
