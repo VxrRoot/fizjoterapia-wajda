@@ -3,11 +3,14 @@ import Image from "next/image";
 import React from "react";
 import { Phone, ArrowRight } from "lucide-react";
 import CTAButton from "@/components/CTAButton";
+import img1 from "../../public/masaz.webp";
+import img2 from "../../public/terapia.webp";
+import img3 from "../../public/wisceralka.webp";
 import Link from "next/link";
 
 const ServicesSection = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 overflow-x-hidden" id="uslugi">
       <ContainerLayout>
         <div>
           <span
@@ -28,15 +31,17 @@ const ServicesSection = () => {
             zawiera kontrolę postępów w leczeniu, aby zapewnić jak najlepsze
             efekty.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-10">
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-10"
+            data-aos="fade-up"
+          >
             <article className=" flex flex-col">
               <Image
-                alt=""
-                className="rounded-xl"
-                src="/terapia.avif"
-                layout="responsive"
-                width={100}
-                height={100}
+                alt="Wizyta fizjoterapeutyczna"
+                className="rounded-xl w-full"
+                src={img2}
+                width={1000}
+                height={1000}
               />
               <h3 className="mt-6">Wizyta fizjoterapeutyczna</h3>
               <p className="poppins text-base mt-2">
@@ -57,12 +62,11 @@ const ServicesSection = () => {
             </article>
             <article className="">
               <Image
-                alt=""
-                className="rounded-xl"
-                src="/masaz.avif"
-                layout="responsive"
-                width={100}
-                height={100}
+                alt="Masaz"
+                className="rounded-xl w-full"
+                src={img1}
+                width={1000}
+                height={1000}
               />
               <h3 className="mt-6">Masaż leczniczy</h3>
               <p className="poppins text-base mt-2">
@@ -84,12 +88,11 @@ const ServicesSection = () => {
             </article>
             <article className="">
               <Image
-                alt=""
-                className="rounded-xl"
-                src="/wisceralka.avif"
-                layout="responsive"
-                width={100}
-                height={100}
+                alt="Terapia wisceralna"
+                className="rounded-xl w-full"
+                src={img3}
+                width={1000}
+                height={1000}
               />
               <h3 className="mt-6">Terapia wisceralna</h3>
               <p className="poppins text-base mt-2">

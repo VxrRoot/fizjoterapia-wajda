@@ -1,5 +1,6 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import Image from "next/image";
+import aboutMeImg from "../../public/omniee.webp";
 
 import React from "react";
 
@@ -9,15 +10,17 @@ const AboutMeSection = () => {
       <ContainerLayout>
         <div className="flex flex-col lg:flex-row gap-20">
           <div className="flex-1">
-            <h2>O mnie</h2>
-            <p className="mt-10">
+            <h2 data-aos="fade-up" data-aos-offset="200">
+              O mnie
+            </h2>
+            <p className="mt-10" data-aos="fade-up" data-aos-offset="200">
               Jestem pasjonatką fizjoterapii z wieloletnim doświadczeniem w
               pracy z Pacjentami. Specjalizuję się w terapii manualnej,
               rehabilitacji pourazowej oraz redukcji napięcia mięśniowego.
               Dzięki różnorodnym technikom i indywidualnemu podejściu pomagam
               Pacjentom wrócić do pełnej sprawności i poprawić jakość życia.
             </p>
-            <ul className="mt-4">
+            <ul className="mt-4" data-aos="fade-up" data-aos-offset="200">
               <li>
                 <strong>2018:</strong> II wiosenne warsztaty dla
                 fizjoterapeutów, Kraków (Organizator: BardoMed)
@@ -31,7 +34,7 @@ const AboutMeSection = () => {
                 (Prowadzący: Tomasz Tittinger i Rafał Słoniak)
               </li>
             </ul>
-            <blockquote>
+            <blockquote data-aos="fade-up" data-aos-offset="200">
               „Do każdego Pacjenta podchodzę w sposób indywidualny i
               holistyczny, zapewniając pełne zaangażowanie i komfort.”
             </blockquote>
@@ -39,10 +42,12 @@ const AboutMeSection = () => {
           <div className="flex-1">
             <Image
               alt="Fizjoterapia Patrycja Wajda"
-              src="/omniee.avif"
-              width={80}
-              height={80}
-              className="w-full rounded-xl"
+              src={aboutMeImg}
+              height={1000}
+              width={1000}
+              className="w-full rounded-xl "
+              data-aos="fade-up"
+              data-aos-offset="200"
             />
           </div>
         </div>

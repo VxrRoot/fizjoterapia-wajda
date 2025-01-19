@@ -1,26 +1,28 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import Image from "next/image";
-
+import img from "../../public/elektrostymulacja1.webp";
 import React from "react";
 
 const TreatmentProcessSection = () => {
   return (
-    <section className="py-20">
+    <section className="py-20" id="o-terapii">
       <ContainerLayout>
         <div className="flex flex-col lg:flex-row gap-20">
-          <div className="flex-1">
+          <div className="flex-1" data-aos="fade-up">
             <Image
               alt="Patrycja Wajda"
-              src="/elektrostymulacja1.avif"
+              src={img}
               className=" w-full object-contain sticky top-36 rounded-xl"
               layout="responsive"
-              width={100}
-              height={100}
+              width={1000}
+              height={1000}
             />
           </div>
           <div className="flex-1">
-            <h2>Sprawdź proces terapii.</h2>
-            <div className="mt-10">
+            <h2 data-aos="fade-up" data-aos-offset="200">
+              Sprawdź proces terapii.
+            </h2>
+            <div className="mt-10" data-aos="fade-left" data-aos-offset="200">
               <div className="flex items-center">
                 <div className="bg-[#c4f692] poppins w-16 aspect-square h-16 rounded-full flex items-center justify-center text-2xl mr-4">
                   1
@@ -35,7 +37,7 @@ const TreatmentProcessSection = () => {
                 terapii oraz zaplanować indywidualny program rehabilitacji.
               </p>
             </div>
-            <div className="mt-10">
+            <div className="mt-10" data-aos="fade-left" data-aos-offset="200">
               <div className="flex items-center">
                 <div className="bg-[#c4f692] poppins aspect-square w-16 h-16 rounded-full flex items-center justify-center text-2xl mr-4">
                   2
@@ -52,7 +54,7 @@ const TreatmentProcessSection = () => {
                 postępów i modyfikacja planu terapii.
               </p>
             </div>
-            <div className="mt-10">
+            <div className="mt-10" data-aos="fade-left" data-aos-offset="200">
               <div className="flex items-center">
                 <div className="bg-[#c4f692] poppins w-16 h-16 aspect-square rounded-full flex items-center justify-center text-2xl mr-4">
                   3

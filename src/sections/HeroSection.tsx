@@ -1,5 +1,6 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import Image from "next/image";
+import heroImg from "../../public/hero-img.webp";
 import React from "react";
 import CTAButton from "@/components/CTAButton";
 
@@ -9,9 +10,12 @@ const HeroSection = () => {
       <ContainerLayout>
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1 flex  flex-col justify-center min-h-full">
-            <div className="bg-[#c4f6921a] animate-pulse py-4 px-5 w-max rounded-full mb-10 flex items-center">
+            <div
+              className="bg-[#c4f6921a] animate-pulse py-4 px-5 w-max rounded-full mb-10 flex items-center"
+              data-aos="fade-right"
+            >
               <span className="w-2 h-2 bg-[#0daf8a] rounded-full block mr-2" />
-              <span className="text-base text-[#0daf8a] font-semibold">
+              <span className="text-base text-[#0daf8a] font-semibold ">
                 Dbaj dziś, by nie leczyć jutro!
               </span>
               <span className="w-2 h-2 bg-[#0daf8a] rounded-full block ml-2" />
@@ -24,7 +28,7 @@ const HeroSection = () => {
               aby skutecznie redukować ból i poprawiać jakość życia. Zaufaj
               profesjonalizmowi i holistycznemu podejściu naszych terapeutów.
             </p>
-            <div className="mt-10 flex">
+            <div className="mt-10 flex" data-aos="fade-up">
               <CTAButton text="Zarezerwuj termin" />
             </div>
           </div>
@@ -35,10 +39,10 @@ const HeroSection = () => {
             >
               <Image
                 alt="Patrycja Wajda"
-                src="/hero-img.avif"
+                src={heroImg}
                 layout="responsive"
-                width={100}
-                height={100}
+                width={1000}
+                height={1000}
               />
             </div>
           </div>

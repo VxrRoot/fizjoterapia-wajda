@@ -1,91 +1,102 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
 import ContactSection from "@/sections/ContactSection";
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import terapiaImg from "../../../public/terapia.webp";
+import masazImg from "../../../public/masaz.webp";
+import wiscelarkaImg from "../../../public/wisceralka.webp";
+import falaImg from "../../../public/fala.webp";
+import tapingImg from "../../../public/taping.webp";
+import bankiImg from "../../../public/banki.webp";
+import drenazImg from "../../../public/drenaz.webp";
+import flossImg from "../../../public/floss.webp";
+import iatmsImg from "../../../public/iastm3.webp";
+import stomatologiaImg from "../../../public/stomatologiczna.webp";
+import kibitoImg from "../../../public/kibido.webp";
 
 const services: {
   id: number;
   name: string;
   desc: string;
   url: string;
-  imgUrl: string;
+  imgUrl: StaticImageData;
 }[] = [
   {
     id: 1,
     name: "Wizyta fizjoterapeutyczna",
     desc: "Terapia przy użyciu specjalnych narzędzi, które stymulują układ nerwowy i mięśniowo-powięziowy. IASTM pomaga w redukcji bólu, poprawie zakresu ruchu oraz regeneracji tkanek, w tym blizn i uszkodzonych powięzi.",
     url: "/fizjoterapia",
-    imgUrl: "/terapia.avif",
+    imgUrl: terapiaImg,
   },
   {
     id: 2,
     name: "Masaż leczniczy",
     desc: "Idealny dla osób zmagających się z napięciem mięśniowym, bólami kręgosłupa oraz stresem. Masaż rozluźnia punkty spustowe, przynosi ulgę w bólu, zmniejsza napięcie i poprawia samopoczucie. Dla chętnych dostępny także masaż relaksacyjny gorącą świecą.",
-    imgUrl: "/masaz.avif",
+    imgUrl: masazImg,
     url: "/masaz-leczniczy",
   },
   {
     id: 3,
     name: "Terapia wisceralna",
     desc: "Terapia ta polega na delikatnych uciskach i manipulacjach w obrębie jamy brzusznej. Dzięki temu poprawia funkcjonowanie narządów wewnętrznych, układu krwionośnego, limfatycznego i nerwowego. Polecana przy refluksie, zaparciach, bólu kręgosłupa czy napięciach w obrębie brzucha.",
-    imgUrl: "/wisceralka.avif",
+    imgUrl: wiscelarkaImg,
     url: "/terapia-wisceralna",
   },
   {
     id: 4,
     name: "Fala uderzeniowa",
     desc: "Terapia falą uderzeniową stymuluje organizm do regeneracji poprzez poprawę krążenia krwi i metabolizmu w uszkodzonych tkankach. Jest skuteczna w leczeniu schorzeń ortopedycznych, takich jak łokieć tenisisty, ostroga piętowa, tendinopatie czy punkty spustowe.",
-    imgUrl: "/fala.avif",
+    imgUrl: falaImg,
     url: "/fala-uderzeniowa",
   },
   {
     id: 5,
     name: "Kinesiotaping",
     desc: "Metoda polega na aplikacji elastycznych taśm na skórę, które działają przeciwbólowo, rozluźniająco i wspomagają przepływ limfy. Tejpy stosowane są przy bólu kręgosłupa, obrzękach, sztywności stawów oraz w celach estetycznych po terapii Kobido.",
-    imgUrl: "/taping.avif",
+    imgUrl: tapingImg,
     url: "/kinesiotaping",
   },
   {
     id: 6,
     name: "Terapia próżniowa (bańki chińskie)",
     desc: "Stosowanie bańki chińskiej (bezogniowej, gumowej lub szklanej) w celach rozluźniających, przeciwbólowych oraz wspierających drenaż limfatyczny. Doskonale sprawdza się w redukcji cellulitu, poprawie krążenia i rozluźnianiu napiętych mięśni.",
-    imgUrl: "/banki.avif",
+    imgUrl: bankiImg,
     url: "/terapia-prozniowa",
   },
   {
     id: 7,
     name: "Drenaż pneumatyczny",
     desc: "Zabieg wykonywany przy pomocy specjalnego urządzenia, które wykorzystuje sekwencyjne uciski powietrzne. Drenaż limfatyczny wspomaga redukcję cellulitu, przynosi ulgę w „ciężkich nogach” oraz pomaga osobom z obrzękami i zwyrodnieniami stawów.",
-    imgUrl: "/drenaz.avif",
+    imgUrl: drenazImg,
     url: "/drenaz-pneumatyczny",
   },
   {
     id: 8,
     name: "Flossing",
     desc: "Elastyczna taśma owinięta wokół stawów lub mięśni wywołuje krótkotrwałą kompresję, która po zdjęciu powoduje intensywne przekrwienie i regenerację. Metoda ta poprawia mobilność, zmniejsza obrzęki i wspiera leczenie przeciążeń oraz urazów.",
-    imgUrl: "/floss.avif",
+    imgUrl: flossImg,
     url: "/flossing",
   },
   {
     id: 9,
     name: "IASTM (Instrument Assisted Soft Tissue Mobilization)",
     desc: "Terapia przy użyciu specjalnych narzędzi, które stymulują układ nerwowy i mięśniowo-powięziowy. IASTM pomaga w redukcji bólu, poprawie zakresu ruchu oraz regeneracji tkanek, w tym blizn i uszkodzonych powięzi.",
-    imgUrl: "/iastm3.avif",
+    imgUrl: iatmsImg,
     url: "/iastm",
   },
   {
     id: 10,
     name: "Terapia stomatologiczna",
     desc: "Specjalistyczna terapia obejmująca mięśnie twarzy, żuchwę oraz stawy skroniowo-żuchwowe. Pomaga w leczeniu bólów głowy, migren, szumów usznych, kliknięć w stawach oraz w przygotowaniu do leczenia ortodontycznego.",
-    imgUrl: "/stomatologiczna.avif",
+    imgUrl: stomatologiaImg,
     url: "/terapia-stomatologiczna",
   },
   {
     id: 11,
     name: "Terapia Kobido Up",
     desc: "Głęboka terapia tkanek twarzy obejmująca masaż, lifting i stymulację mięśni. Poprawia owal twarzy, redukuje zmarszczki i napięcia, a także przynosi głęboki relaks. Może być wspierana kinesiotapingiem dla przedłużenia efektów.",
-    imgUrl: "/kibido.avif",
+    imgUrl: kibitoImg,
     url: "/terapia-kibido-up",
   },
 ];
@@ -111,8 +122,8 @@ export default function ServicesPage() {
                 className="rounded-xl w-full aspect-auto"
                 src={item.imgUrl}
                 layout="responsive"
-                width={100}
-                height={100}
+                width={1000}
+                height={1000}
               />
               <h3 className="mt-6">{item.name}</h3>
               <p className="poppins text-base mt-2">{item.desc}</p>

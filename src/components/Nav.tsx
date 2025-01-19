@@ -27,17 +27,25 @@ const Nav = () => {
           <div className="xl:px-6 xl:mx-2 xl:px-10 xl:mx-4">
             <Link
               className="  hover:-translate-y-1 transition-all block"
-              href="#"
+              href="/#o-terapii"
             >
-              O mnie
+              O terapii
             </Link>
           </div>
           <div className=" xl:px-10 xl:mx-4">
             <Link
               className="  hover:-translate-y-1 transition-all block"
-              href="/uslugi"
+              href="/#uslugi"
             >
               Usługi
+            </Link>
+          </div>
+          <div className=" xl:px-10 xl:mx-4">
+            <Link
+              className="  hover:-translate-y-1 transition-all block"
+              href="/#kontakt"
+            >
+              Kontakt
             </Link>
           </div>
         </div>
@@ -47,16 +55,16 @@ const Nav = () => {
         <div className=" xl:px-10 xl:mx-4">
           <Link
             className=" whitespace-nowrap  hover:-translate-y-1 transition-all block"
-            href="#"
+            href="/#o-terapii"
           >
-            O mnie
+            O terapii
           </Link>
         </div>
 
         <div className=" xl:px-10 xl:mx-4">
           <Link
             className=" whitespace-nowrap hover:-translate-y-1 transition-all block"
-            href="/uslugi"
+            href="/#uslugi"
           >
             Usługi
           </Link>
@@ -64,7 +72,7 @@ const Nav = () => {
         <div className="xl:pl-10">
           <Link
             className=" whitespace-nowrap hover:-translate-y-1 transition-all block"
-            href="#"
+            href="/#kontakt"
           >
             Kontakt
           </Link>

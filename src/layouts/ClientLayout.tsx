@@ -12,5 +12,5 @@ export default function ClientLayout({ children }: { children: ReactNode }) {
     });
   }, []);
 
-  return <div>{children}</div>;
+  return <div className="">{children}</div>;
 }

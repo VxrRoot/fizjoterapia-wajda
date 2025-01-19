@@ -1,6 +1,7 @@
 import CTAButton from "@/components/CTAButton";
 import ContainerLayout from "@/layouts/ContainerLayout";
 import ContactSection from "@/sections/ContactSection";
+import wiscelarkaImg from "../../../../public/wisceralka.webp";
 import { Phone } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -29,7 +30,7 @@ export default function Page() {
           </div>
           <Image
             alt="Wizyta fizjoterapeutyczna - Fizjoterapia Patrycja Wajda"
-            src="/wisceralka.avif"
+            src={wiscelarkaImg}
             width={1000}
             height={1000}
             className="w-full h-auto rounded-2xl my-14"

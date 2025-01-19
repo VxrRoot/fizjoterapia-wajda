@@ -3,6 +3,7 @@ import ContainerLayout from "@/layouts/ContainerLayout";
 import ContactSection from "@/sections/ContactSection";
 import { Phone } from "lucide-react";
 import { Metadata } from "next";
+import terapiaImg from "../../../../public/terapia.webp";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -29,7 +30,7 @@ export default function PhysiotherapyPage() {
           </div>
           <Image
             alt="Wizyta fizjoterapeutyczna - Fizjoterapia Patrycja Wajda"
-            src="/terapia.avif"
+            src={terapiaImg}
             width={1000}
             height={1000}
             className="w-full h-auto rounded-2xl my-14"

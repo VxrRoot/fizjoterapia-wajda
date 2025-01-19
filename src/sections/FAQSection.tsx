@@ -59,16 +59,22 @@ const FAQSection = () => {
       <ContainerLayout>
         <div className="flex flex-col lg:flex-row lg:space-x-10 max-lg:space-y-10">
           <div className="flex-1 lg:mt-6">
-            <h2>Często zadawane pytania przez moich pacjentów</h2>
-            <p className="mt-10">
+            <h2 data-aos="fade-up" data-aos-offset="200">
+              Często zadawane pytania przez moich pacjentów
+            </h2>
+            <p className="mt-10" data-aos="fade-up" data-aos-offset="200">
               Znajdziesz tutaj informacje najważniejsze aspekty terapii,
               rezerwacji wizyt i przygotowania do pierwszego spotkania, abyś
               czuł się pewnie i komfortowo.
             </p>
-            <p className="mt-10">
+            <p className="mt-10" data-aos="fade-up" data-aos-offset="200">
               Nie ma odpowiedzi na Twoje pytanie? Skontaktuj się ze mną.
             </p>
-            <div className="mt-4 flex max-sm:flex-col sm:space-x-4">
+            <div
+              className="mt-4 flex max-sm:flex-col sm:space-x-4"
+              data-aos="fade-up"
+              data-aos-offset="200"
+            >
               <a href="tel:+48785395887" className="flex gap-2 poppins">
                 <Phone className="text-[#04534B]" />
                 <span>+48 785 395 887</span>
@@ -84,7 +90,12 @@ const FAQSection = () => {
             </div>
           </div>
           <div className="flex-1">
-            <Accordion type="single" collapsible>
+            <Accordion
+              type="single"
+              collapsible
+              data-aos="fade-left"
+              data-aos-offset="200"
+            >
               {FAQItems.map((item) => (
                 <AccordionItem value={`item-${item.id}`} key={item.id}>
                   <AccordionTrigger className="text-2xl">

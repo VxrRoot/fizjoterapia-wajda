@@ -1,11 +1,12 @@
 import CTAButton from "@/components/CTAButton";
 import ContainerLayout from "@/layouts/ContainerLayout";
+import avatarImg from "../../public/avatar.webp";
 import { Facebook, Instagram } from "lucide-react";
 import Image from "next/image";
 
 const ContactSection = () => {
   return (
-    <section className="bg-[#073833] text-white py-20">
+    <section className="bg-[#073833] text-white py-20" id="kontakt">
       <ContainerLayout>
         <div>
           <h2 className="mb-6">Kontakt</h2>
@@ -31,11 +32,11 @@ const ContactSection = () => {
             <div className="flex items-center gap-4">
               <Image
                 alt=""
-                src="/avatar.avif"
+                src={avatarImg}
                 className="!w-20 !h-20 rounded-full"
                 layout="responsive"
-                width={80}
-                height={80}
+                width={1000}
+                height={1000}
               />
               <div className="poppins">
                 <p>mgr Patrycja Wajda</p>
