@@ -10,17 +10,17 @@ const AboutMeSection = () => {
       <ContainerLayout>
         <div className="flex flex-col lg:flex-row gap-20">
           <div className="flex-1">
-            <h2 data-aos="fade-up" data-aos-offset="200">
+            <h2 data-aos="fade-up" data-aos-delay="100">
               O mnie
             </h2>
-            <p className="mt-10" data-aos="fade-up" data-aos-offset="200">
+            <p className="mt-10" data-aos="fade-up" data-aos-delay="100">
               Jestem pasjonatką fizjoterapii z wieloletnim doświadczeniem w
               pracy z Pacjentami. Specjalizuję się w terapii manualnej,
               rehabilitacji pourazowej oraz redukcji napięcia mięśniowego.
               Dzięki różnorodnym technikom i indywidualnemu podejściu pomagam
               Pacjentom wrócić do pełnej sprawności i poprawić jakość życia.
             </p>
-            <ul className="mt-4" data-aos="fade-up" data-aos-offset="200">
+            <ul className="mt-4" data-aos="fade-up" data-aos-delay="100">
               <li>
                 <strong>2018:</strong> II wiosenne warsztaty dla
                 fizjoterapeutów, Kraków (Organizator: BardoMed)
@@ -34,7 +34,7 @@ const AboutMeSection = () => {
                 (Prowadzący: Tomasz Tittinger i Rafał Słoniak)
               </li>
             </ul>
-            <blockquote data-aos="fade-up" data-aos-offset="200">
+            <blockquote data-aos="fade-up" data-aos-delay="100">
               „Do każdego Pacjenta podchodzę w sposób indywidualny i
               holistyczny, zapewniając pełne zaangażowanie i komfort.”
             </blockquote>
@@ -47,7 +47,7 @@ const AboutMeSection = () => {
               width={1000}
               className="w-full rounded-xl "
               data-aos="fade-up"
-              data-aos-offset="200"
+              data-aos-delay="100"
             />
           </div>
         </div>
