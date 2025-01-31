@@ -17,7 +17,7 @@ const items = [
   {
     id: 2,
     title: "Wieloletnie doświadczenie i zaawansowane szkolenia",
-    desc: "Pracuję jako fizjoterapeutka od ponad 5 lat, regularnie podnosząc kwalifikacje na kursach, takich jak terapia wisceralna, fala uderzeniowa i kinesiotaping, by oferować najskuteczniejsze metody leczenia.",
+    desc: "Pracuję jako fizjoterapeutka od ponad 5 lat, regularnie podnosząc kwalifikacje na kursach, takich jak terapia wisceralna, terapia stawów skroniowo-żuchwowych, flossing, kinesiotaping, Kobido i inne, aby oferować najskuteczniejsze metody leczenia.",
     img: img2,
   },
   {
@@ -29,7 +29,7 @@ const items = [
   {
     id: 4,
     title: "Kompleksowa oferta terapeutyczna",
-    desc: "W jednym miejscu znajdziesz szeroką gamę terapii – od masaży leczniczych, przez drenaż limfatyczny, po nowoczesne metody, takie jak flossing czy terapia IASTM. Wszystko po to, aby zapewnić Ci wszechstronną opiekę.",
+    desc: "W jednym miejscu znajdziesz szeroką gamę terapii – od masaży leczniczych, przez drenaż pneumatyczny, po nowoczesne metody, takie jak pinoterapia czy masaż KOBIDO UP. Wszystko po to, aby zapewnić Ci wszechstronną opiekę.",
     img: img4,
   },
   {

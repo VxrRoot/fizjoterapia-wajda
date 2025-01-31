@@ -26,10 +26,10 @@ const ServicesSection = () => {
           <p className="max-w-[50rem]" data-aos="fade-up" data-aos-offset="200">
             Wizyta obejmuje szczegółowe badanie oraz indywidualnie dostosowaną
             terapię. W zależności od potrzeb pacjenta stosowane są techniki
-            manualne, ćwiczenia, terapia bańkowa, flossing, drenaż pneumatyczny,
-            fala uderzeniowa lub terapia wisceralna. Każda kolejna wizyta
-            zawiera kontrolę postępów w leczeniu, aby zapewnić jak najlepsze
-            efekty.
+            manualne, ćwiczenia, terapia próżniowa, flossing, drenaż
+            pneumatyczny, fala uderzeniowa lub terapia wisceralna. Każda kolejna
+            wizyta zawiera kontrolę postępów w leczeniu, aby zapewnić jak
+            najlepsze efekty.
           </p>
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-10"
@@ -123,8 +123,9 @@ const ServicesSection = () => {
             </div>
             <p className="max-w-[60rem] text-center mt-20">
               Jeśli nie znalazłeś/-aś usługi, której potrzebujesz, zapraszam do
-              kontaktu telefonicznego. Chętnie udzielę dodatkowych informacji i
-              pomogę znaleźć najlepsze rozwiązanie dopasowane do Twoich potrzeb.
+              kontaktu telefonicznego. <br /> Chętnie udzielę dodatkowych
+              informacji i pomogę znaleźć najlepsze rozwiązanie dopasowane do
+              Twoich potrzeb.
             </p>
             <div className="mt-10">
               <a href="tel:+48785395887" className="flex gap-2 poppins">

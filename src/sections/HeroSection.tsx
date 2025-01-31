@@ -24,9 +24,10 @@ const HeroSection = () => {
               Odkryj nowoczesną fizjoterapię dla każdego
             </h1>
             <p data-aos="fade-up" data-aos-delay="200">
-              Moje podejście łączy innowacyjne metody z indywidualnym wsparciem,
-              aby skutecznie redukować ból i poprawiać jakość życia. Zaufaj
-              profesjonalizmowi i holistycznemu podejściu naszych terapeutów.
+              W mojej pracy łączę innowacyjne metody fizjoterapeutyczne z
+              indywidualnym podejściem do konkretnego problemu. Każdego Pacjenta
+              traktuję w sposób holistyczny, by móc nie tylko pozbyć się
+              objawów, ale przede wszystkim przyczyny dolegliwości.
             </p>
             <div className="mt-10 flex" data-aos="fade-up">
               <CTAButton text="Zarezerwuj termin" />

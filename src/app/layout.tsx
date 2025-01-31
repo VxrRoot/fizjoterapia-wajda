@@ -38,6 +38,13 @@ export default function RootLayout({
         <Header />
         <ClientLayout>{children}</ClientLayout>
         <Footer />
+        <a
+          href="https://www.m.me/108440590840140"
+          className="fixed bottom-4 right-4 lg:right-10 lg:bottom-10 w-16 h-16"
+          target="_blank"
+        >
+          <img src="/msg-icon.webp" />
+        </a>
       </body>
     </html>
   );

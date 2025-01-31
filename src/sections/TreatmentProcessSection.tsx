@@ -42,13 +42,13 @@ const TreatmentProcessSection = () => {
                 <div className="bg-[#c4f692] poppins aspect-square w-16 h-16 rounded-full flex items-center justify-center text-2xl mr-4">
                   2
                 </div>
-                <h3>Indywidualna terapia manualna i narzędziowa</h3>
+                <h3>Indywidualna terapia manualna i&nbsp;narzędziowa</h3>
               </div>
               <p className="text-lg mt-4">
-                Każda sesja to połączenie różnych technik terapeutycznych
+                Każda sesja to połączenie różnorodnych technik terapeutycznych
                 dostosowanych do aktualnych potrzeb pacjenta. Stosuję m.in.
-                terapię manualną, terapię bańkami, flossing, kinesiotaping, falę
-                uderzeniową oraz drenaż pneumatyczny. W razie potrzeby
+                terapię manualną, terapię próżniową, flossing, kinesiotaping,
+                falę uderzeniową oraz drenaż pneumatyczny. W razie potrzeby
                 wprowadzam terapię wisceralną lub terapię stawów
                 skroniowo-żuchwowych. Kluczowym elementem jest stała ocena
                 postępów i modyfikacja planu terapii.
@@ -59,13 +59,13 @@ const TreatmentProcessSection = () => {
                 <div className="bg-[#c4f692] poppins w-16 h-16 aspect-square rounded-full flex items-center justify-center text-2xl mr-4">
                   3
                 </div>
-                <h3>Utrwalenie efektów i profilaktyka</h3>
+                <h3>Utrwalenie efektów i&nbsp;profilaktyka</h3>
               </div>
               <p className="text-lg mt-4">
                 Aby zapewnić długotrwałe efekty, edukuję pacjentów w zakresie
-                ćwiczeń domowych oraz właściwej postawy ciała. Proponuję zestawy
-                ćwiczeń, które pomagają wzmocnić efekty terapii i zapobiegać
-                nawrotom dolegliwości. W razie potrzeby oferuję masaż
+                aktywności fizycznej oraz właściwej postawy ciała. Proponuję
+                zestawy ćwiczeń, które pomagają wzmocnić postępy terapii i
+                zapobiegać nawrotom dolegliwości. W razie potrzeby oferuję masaż
                 relaksacyjny lub leczniczy, który dodatkowo wspiera regenerację
                 organizmu.
               </p>

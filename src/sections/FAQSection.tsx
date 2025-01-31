@@ -1,19 +1,18 @@
-import ContainerLayout from "@/layouts/ContainerLayout";
-import React from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Phone, Mail } from "lucide-react";
+import ContainerLayout from "@/layouts/ContainerLayout";
+import { Instagram, Mail, Phone } from "lucide-react";
 
 const FAQItems = [
   {
     id: 1,
     question: "Jak przygotować się do pierwszej wizyty?",
     answear:
-      "Na pierwszą wizytę prosimy zabrać wygodne ubranie, wyniki badań (jeśli są dostępne) oraz dokumentację medyczną. Warto przyjść kilka minut wcześniej, aby wypełnić kwestionariusz dotyczący zdrowia",
+      "Na pierwszą wizytę prosimy zabrać wygodne ubranie, wyniki badań (jeśli są dostępne) oraz dokumentację medyczną. Warto przyjść punktualnie, aby wypełnić kwestionariusz dotyczący zdrowia",
   },
   {
     id: 2,
@@ -25,7 +24,7 @@ const FAQItems = [
     id: 3,
     question: "Czy zabiegi są bolesne?",
     answear:
-      "Większość zabiegów jest bezbolesna, choć niektóre techniki, takie jak terapia punktów spustowych czy IASTM, mogą wiązać się z chwilowym dyskomfortem. Wszelkie działania są dostosowywane do poziomu komfortu pacjenta.",
+      "Większość zabiegów jest bezbolesna, choć niektóre techniki, takie jak terapia punktów spustowych czy pinoterapia, mogą wiązać się z chwilowym dyskomfortem. Wszelkie działania są dostosowywane do poziomu komfortu pacjenta.",
   },
   {
     id: 4,
@@ -71,7 +70,7 @@ const FAQSection = () => {
               Nie ma odpowiedzi na Twoje pytanie? Skontaktuj się ze mną.
             </p>
             <div
-              className="mt-4 flex max-sm:flex-col sm:space-x-4"
+              className="mt-4 flex flex-col max-sm:flex-col sm:space-y-4"
               data-aos="fade-up"
               data-aos-offset="200"
             >
@@ -87,7 +86,16 @@ const FAQSection = () => {
                 <Mail className="text-[#04534B]" />
                 fizjoterapia.wajda@gmail.com
               </a>
+              <a
+                href="https://www.instagram.com/fizjoterapia.wajda/"
+                target="_blank"
+                className="flex gap-2 poppins max-sm:mt-4"
+              >
+                <Instagram className="text-[#04534B]" />
+                Zajrzyj na mój profil
+              </a>
             </div>
+            <div className="mt-4 flex gap-4"></div>
           </div>
           <div className="flex-1">
             <Accordion
