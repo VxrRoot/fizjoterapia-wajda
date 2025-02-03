@@ -121,6 +121,7 @@ export default function ServicesPage() {
                 alt=""
                 className="rounded-xl w-full aspect-auto"
                 src={item.imgUrl}
+                priority
                 layout="responsive"
                 width={1000}
                 height={1000}

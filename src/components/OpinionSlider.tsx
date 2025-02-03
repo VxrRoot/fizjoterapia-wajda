@@ -6,15 +6,27 @@ import "slick-carousel/slick/slick.css";
 const opinions = [
   {
     id: 1,
-    author: "Dorota",
+    author: "Paulina",
     title: "Podopieczna",
-    text: ',,Serdecznie polecam Panią Patrycję. Trafnie zdiagnozowała problem, a także odpowiednio dobrała działania. Po zaledwie trzech wizytach odczułam znaczną poprawę. Do tej pory ból nie wrócił!"',
+    text: ',,Z masażu Pani Patrycji skorzystałam z powodu bólu karku i pleców. Po 1 masażu ból prawie zniknął. Po 2 wizytach całkowicie. Bardzo komfortowo czuję się w gabinecie Pani Patrycji. Pani Patrycja jest miła i rozmowna, dla mnie bardzo ważny jest dobry kontakt z fizjoterapeutą. Z masażu w przyszłości napewno skorzystam. Polecam."',
   },
   {
     id: 2,
-    author: "Wiktor",
-    title: "Podopieczny",
-    text: ',,Świetna atmosfera i profesjonalne podejście do klienta. Pani Patrycja posiada potężną wiedzę i doskonale wie jak ją użyć, aby po pierwszej wizycie były widoczne efekty, wiążące się z ogromnym zadowoleniem klienta. Szczerze polecam i zachęcam do zapisów!"',
+    author: "Małgorzata",
+    title: "Podopieczna",
+    text: ',,Bardzo profesjonalne i indywidualne podejście, po jednej wizycie ból szyi i głowy ustąpił, masaż twarzy kobido - super relaks i efekt widoczny od razu. Bardzo dziękuję za cenne rady"',
+  },
+  {
+    id: 3,
+    author: "Małgorzata",
+    title: "Podopieczna",
+    text: "Polecam Panią Patrycję z całego serca. Jest świetna, co potwierdzają również rehabilitanci z jednej z najlepszych klinik w Polsce. Jestem po endoprotezie kolana i po miesiącu rehabilitacji u Pani Patrycji efekty są znakomite. Zdecydowanie polecam i dziękuję.",
+  },
+  {
+    id: 4,
+    author: "Klaudia",
+    title: "Podopieczna",
+    text: "Fizjoterapeutka, która pomogła mi w walce z uporczywym bólem ramion i szyi. Już po pierwszej wizycie zauważyłam znaczną poprawę. Pełen profesjonalizm i empatia sprawiły, że czułem się zrozumiana i zaopiekowana. Dzięki spersonalizowanemu podejściu oraz skutecznej terapii ból znacznie się zmniejszył, a ja odzyskałam pełną sprawność. Zdecydowanie polecam tę fizjoterapeutkę każdemu, kto zmaga się z podobnymi dolegliwościami. To osoba, która naprawdę dba o swoich pacjentów i potrafi zdziałać cuda!",
   },
 ];
 

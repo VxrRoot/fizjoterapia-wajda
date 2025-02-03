@@ -20,6 +20,22 @@ export const metadata: Metadata = {
     locale: "pl",
     url: "",
     siteName: "Fizjoterapia Wajda",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Fizjoterapia Patrycja Wajda",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
   },
   robots: {
     index: isProduction ? true : false,
