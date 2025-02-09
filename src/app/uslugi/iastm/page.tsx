@@ -23,9 +23,9 @@ export default function Page() {
             IASTM – skuteczna mobilizacja tkanek miękkich
           </h1>
           <div className="mt-10">
-            <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
+            {/* <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
               Czas trwania: 30 minut
-            </div>
+            </div> */}
           </div>
           <Image
             alt="IASTM - Fizjoterapia Patrycja Wajda"

@@ -25,9 +25,9 @@ export default function Page() {
             napięcia mięśniowego
           </h1>
           <div className="mt-10">
-            <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
+            {/* <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
               Czas trwania: 45 minut
-            </div>
+            </div> */}
           </div>
           <Image
             alt="Terapia Stomatologiczna - Fizjoterapia Patrycja Wajda"

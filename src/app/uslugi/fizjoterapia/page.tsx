@@ -25,7 +25,7 @@ export default function PhysiotherapyPage() {
           </h1>
           <div className="mt-10">
             <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
-              Czas trwania: 60minut
+              Czas trwania: 60 minut
             </div>
           </div>
           <Image
@@ -63,7 +63,7 @@ export default function PhysiotherapyPage() {
             Kiedy warto skorzystać z wizyty fizjoterapeutycznej?
           </h2>
           <ul className="poppins list-disc list-inside">
-            <li>Bóle kręgosłupa (lędźwiowe, szyjne, piersiowe)</li>
+            <li>Bóle kręgosłupa (szyjnego, piersiowego i lędźwiowego )</li>
             <li>Przepukliny i dyskopatie</li>
             <li>Przeciążenia mięśniowe i stawowe</li>
             <li>Migreny i napięciowe bóle głowy</li>

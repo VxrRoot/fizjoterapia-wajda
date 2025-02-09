@@ -24,9 +24,9 @@ export default function Page() {
             Kinesiotaping – wsparcie w regeneracji i leczeniu bólu
           </h1>
           <div className="mt-10">
-            <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
+            {/* <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
               Czas trwania: 60minut
-            </div>
+            </div> */}
           </div>
           <Image
             alt="Wizyta fizjoterapeutyczna - Fizjoterapia Patrycja Wajda"

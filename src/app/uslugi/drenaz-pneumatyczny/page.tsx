@@ -26,7 +26,7 @@ export default function Page() {
           </h1>
           <div className="mt-10">
             <div className="bg-[#c4f692] text-[#073833] w-max px-4 py-2 rounded-full">
-              Czas trwania: 40 minut
+              Czas trwania: 30 / 60 minut
             </div>
           </div>
           <Image
