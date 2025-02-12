@@ -10,7 +10,7 @@ const Header = () => {
     <header className=" fixed top-0 left-0 right-0  z-50 bg-[#073833]">
       <ContainerLayout>
         <div className="py-2 flex xl:justify-between">
-          <Link href="/" className=" w-48">
+          <Link href="/" className=" w-48" aria-label="Strona główna">
             <Logo />
           </Link>
 

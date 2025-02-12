@@ -8,38 +8,57 @@ import "./globals.css";
 
 const syne = Syne({ subsets: ["latin"] });
 
-const isProduction = process.env.NEXT_PUBLIC_ENV === "production";
-
 export const metadata: Metadata = {
-  title: "Fizjoterapia korczyna",
-  description: "Fizjoterapia Patrycja Wajda - Korczyna, Krosno",
+  title: "Fizjoterapia Korczyna – Rehabilitacja i Masaż | Patrycja Wajda",
+  description:
+    "Profesjonalna fizjoterapia i rehabilitacja w Korczynie (Krosno). Sprawdź ofertę masaży i terapii manualnej. Umów wizytę już dziś!",
+
+  keywords: [
+    "fizjoterapia Korczyna",
+    "rehabilitacja Korczyna",
+    "masaż Korczyna",
+    "terapia manualna Krosno",
+    "fizjoterapeuta Korczyna",
+    "fizjoterapeuta Krosno",
+    "rehabilitacja Krosno",
+    "masaż Krosno",
+  ],
+
   openGraph: {
-    title: "Fizjoterapia korczyna",
-    description: "Fizjoterapia Patrycja Wajda - Korczyna, Krosno",
+    title: "Fizjoterapia Korczyna – Rehabilitacja i Masaż | Patrycja Wajda",
+    description:
+      "Profesjonalna fizjoterapia i rehabilitacja w Korczynie (Krosno). Sprawdź ofertę masaży i terapii manualnej. Umów wizytę już dziś!",
     type: "website",
-    locale: "pl",
-    url: "",
-    siteName: "Fizjoterapia Wajda",
+    locale: "pl_PL",
+    url: "https://fizjoterapiawajda.pl/", // ← Podaj pełny URL
+    siteName: "Fizjoterapia Patrycja Wajda",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://fizjoterapiawajda.pl/og-image.png", // ← Pełny URL do obrazka!
         width: 1200,
         height: 630,
-        alt: "Fizjoterapia Patrycja Wajda",
+        alt: "Fizjoterapia Korczyna – Rehabilitacja i Masaż",
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    images: ["/og-image.png"],
+    title: "Fizjoterapia Korczyna – Rehabilitacja i Masaż | Patrycja Wajda",
+    description:
+      "Profesjonalna fizjoterapia i rehabilitacja w Korczynie (Krosno). Sprawdź ofertę masaży i terapii manualnej. Umów wizytę już dziś!",
+    images: ["https://fizjoterapiawajda.pl/og-image.png"],
   },
+
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
   },
+
   robots: {
-    index: isProduction ? true : false,
-    follow: isProduction ? true : false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -59,7 +78,7 @@ export default function RootLayout({
           className="fixed bottom-4 right-4 lg:right-10 lg:bottom-10 w-16 h-16"
           target="_blank"
         >
-          <img src="/msg-icon.webp" />
+          <img src="/msg-icon.webp" alt="Messenger" />
         </a>
       </body>
     </html>

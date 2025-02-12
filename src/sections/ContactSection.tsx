@@ -24,6 +24,7 @@ const ContactSection = () => {
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
+              title="Google maps adres"
               referrerPolicy="no-referrer-when-downgrade"
               className="rounded-xl"
             ></iframe>
@@ -49,12 +50,14 @@ const ContactSection = () => {
               <a
                 href="https://www.facebook.com/fizjoterapia.wajda"
                 target="_blank"
+                aria-label="Facebook"
               >
                 <Facebook className="text-white" />
               </a>
               <a
                 href="https://www.instagram.com/fizjoterapia.wajda/"
                 target="_blank"
+                aria-label="Instagram"
               >
                 <Instagram className="text-white" />
               </a>

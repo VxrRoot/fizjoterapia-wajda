@@ -73,9 +73,9 @@ const WhyWorkWithMe = () => {
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="text-white p-6 bg-gradient-to-t from-[rgba(7,56,51,1)] to-[rgba(255,255,255,0.5)] absolute top-0 left-0 right-0 bottom-0 flex justify-end flex-col">
-                  <h4 className="flex space-x-2 text-2xl mb-4 font-bold ">
+                  <h3 className="flex space-x-2 text-2xl mb-4 font-bold ">
                     {item.title}
-                  </h4>
+                  </h3>
                   <p>{item.desc}</p>
                 </div>
               </div>

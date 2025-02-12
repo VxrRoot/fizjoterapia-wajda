@@ -5,7 +5,15 @@ const Footer = () => {
   return (
     <footer className="bg-[#073833]">
       <ContainerLayout>
-        <div className=""></div>
+        <div className="text-white py-10 flex justify-between">
+          <div>COPYRIGHT &copy; fizjoterapiawajda 2025</div>
+          <div>
+            Realizacja{" "}
+            <a className="underline" href="https://www.web-nova.pl/">
+              Web Nova
+            </a>
+          </div>
+        </div>
       </ContainerLayout>
     </footer>
   );
