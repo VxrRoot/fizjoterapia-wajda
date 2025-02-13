@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#073833]">
       <ContainerLayout>
-        <div className="text-white py-10 flex justify-between">
+        <div className="text-white py-10 flex flex-col md:flex-row justify-between">
           <div>COPYRIGHT &copy; fizjoterapiawajda 2025</div>
           <div>
             Realizacja{" "}
