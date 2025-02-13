@@ -72,16 +72,15 @@ export default function RootLayout({
     <html lang="pl" suppressHydrationWarning>
       <GoogleTagManager gtmId="GTM-P8B6FLVS" />
 
-      <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-P8B6FLVS"
-          height="0"
-          width="0"
-          style={{ display: "none", visibility: "hidden" }}
-        ></iframe>
-      </noscript>
-
       <body className={`${syne.className} antialiased overflow-x-hidden`}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-P8B6FLVS"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         <Header />
         <ClientLayout>{children}</ClientLayout>
         <Footer />
