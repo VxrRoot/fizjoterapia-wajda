@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.7",
     "@radix-ui/react-accordion": "^1.2.2",
     "@types/aos": "^3.0.7",
     "aos": "^2.3.4",

@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ClientLayout from "@/layouts/ClientLayout";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "aos/dist/aos.css";
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
@@ -69,6 +70,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl" suppressHydrationWarning>
+      <GoogleTagManager gtmId="GTM-P8B6FLVS" />
+
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-P8B6FLVS"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        ></iframe>
+      </noscript>
+
       <body className={`${syne.className} antialiased overflow-x-hidden`}>
         <Header />
         <ClientLayout>{children}</ClientLayout>
